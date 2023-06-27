@@ -81,7 +81,7 @@ default['private_chef']['addons']['ubuntu_distribution'] =
 # The username for the chef services user
 default['private_chef']['user']['username'] = ChefUtils::Dist::Server::SYSTEM_USER
 # The shell for the chef services user
-default['private_chef']['user']['shell'] = '/usr/sbin/nologin'
+default['private_chef']['user']['shell'] = '/sbin/nologin'
 # The home directory for the chef services user
 default['private_chef']['user']['home'] = "/opt/#{ChefUtils::Dist::Org::LEGACY_CONF_DIR}/embedded"
 
